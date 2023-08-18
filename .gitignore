@@ -1,0 +1,7 @@
+*~
+/llm-book*
+.python-version
+*.log
+tmp/
+.env*
+.DS_Store
