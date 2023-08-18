@@ -1,5 +1,5 @@
 # llm-book-command
-Workspace for [Introduction to Large Language Models](https://github.com/ghmagazine/llm-book)
+Workspace for [Introduction to Large Language Models](https://github.com/mtake/llm-book)
 
 ## Preparation
 
