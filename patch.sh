@@ -17,4 +17,8 @@ cmd="find llm-book -name '*.ipynb' -exec ${SED_CMD} -i -e 's|cuda:0|cpu|g' '{}' 
 echo "$cmd"
 eval "$cmd"
 
+cmd="find llm-book -name '*.ipynb' -exec ${SED_CMD} -i -e 's|fp16=True|fp16=False|g' '{}' \;"
+echo "$cmd"
+eval "$cmd"
+
 echo "output*/" >> llm-book/.gitignore
